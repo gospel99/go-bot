@@ -31,8 +31,8 @@
 
 #### Setup bot on your Machine
 ```bash
-$ git clone https://github.com/ShirokamiRyzen/Nao-MD
-$ cd Nao-MD
+$ git clone https://github.com/gospel99/go-bot
+$ cd go-bot
 $ npm i
 ```
 
