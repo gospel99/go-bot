@@ -25,16 +25,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/ShirokamiRyzen/Nao-MD",
+    "homepage": "https://github.com/gospel99/go-bot",
     "author": {
         "name": "ShirokamiRyzen"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ShirokamiRyzen/Nao-MD.git"
+        "url": "git+https://github.com/gospel99/go-bot.git"
     },
     "bugs": {
-        "url": "https://github.com/ShirokamiRyzen/Nao-MD/issues"
+        "url": "https://github.com/gospel99/go-bot/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
