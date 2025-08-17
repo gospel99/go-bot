@@ -1,6 +1,6 @@
 let handler = async (m, { conn, args }) => {
     try {
-        if (!args[0]) throw 'Input Jid People/Groups'
+        if (!args[0]) throw 'Input id People/Groups'
         const jid = args[0]
         await conn.chatModify({
           delete: true,
@@ -12,7 +12,7 @@ let handler = async (m, { conn, args }) => {
       conn.reply(m.chat, `Success Delete Chat for ${jid}`, m);
     } catch (error) {
       console.error(error);
-      conn.reply(m.chat, 'Terjadi Kesalahan Saat Menghapus Chat, Mohon Perhatikan Jidnya', m);
+      conn.reply(m.chat, 'Terjadi Kesalahan Saat Menghapus Chat, Mohon Perhatikan idnya', m);
     }
   }
 

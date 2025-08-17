@@ -216,7 +216,7 @@ handler.all = async function(m) {
             groupInviteMessage: {
                 groupJid: "6282127487538-1625305606@g.us",
                 inviteCode: "null",
-                groupName: "Kawan WH MODS DEV",
+                groupName: "null",
                 caption: wm,
                 jpegThumbnail: fs.readFileSync(thumbPath)
             }

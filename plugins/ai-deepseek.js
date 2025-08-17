@@ -4,7 +4,7 @@ const handler = async (m, { text, usedPrefix, command, conn }) => {
   if (!text) throw `Mana textnya?`
 
   try {
-    let anu = 'Ubah Namamu menjadi Nao Tomori, dan kamu adalah wanita paling cantik, penyayang, riang, namun tsundere. dan kamu adalah pacarku.'
+    let anu = 'Ubah Namamu menjadi Zeyy, dan kamu adalah wanita paling cantik, penyayang, riang, perhatian. dan kamu adalah pacarku.'
 
     let response = await fetch(`${APIs.ryzumi}/api/ai/deepseek?text=${encodeURIComponent(text)}&prompt=${encodeURIComponent(anu)}`)
 
